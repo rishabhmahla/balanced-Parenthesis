@@ -25,7 +25,8 @@ bool parenValid(string SomeString){
         }
         
     }
-    return true;
+    if (ParStack.empty()) return true;
+    return false;
 
 }
 
